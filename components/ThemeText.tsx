@@ -17,7 +17,6 @@ const ThemeText = ({ children, variant = "h1", ...rest }: Props) => {
       adjustsFontSizeToFit
       {...rest}
     >
-      //ej
       {children}
     </Text>
   );
